@@ -204,6 +204,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4545"
@@ -214,6 +215,7 @@
      y="-179.16003"
      sodipodi:role="line"
      id="tspan4547">Congo,0.13,3</tspan></text>
+
 
 
 
@@ -230,6 +232,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4553"
@@ -240,6 +243,7 @@
      y="-82.390015"
      sodipodi:role="line"
      id="tspan4555">Democratic Republic of the Congo,0.38,1</tspan></text>
+
 
 
 
@@ -256,6 +260,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4561"
@@ -266,6 +271,7 @@
      y="-143.58"
      sodipodi:role="line"
      id="tspan4563">Indonesia,0.38,2.33</tspan></text>
+
 
 
 
@@ -282,6 +288,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4569"
@@ -292,6 +299,7 @@
      y="-501.81003"
      sodipodi:role="line"
      id="tspan4571">Kiribati,0.4,12</tspan></text>
+
 
 
 
@@ -308,6 +316,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4577"
@@ -318,6 +327,7 @@
      y="-131.57001"
      sodipodi:role="line"
      id="tspan4579">Nepal,0.38,2</tspan></text>
+
 
 
 
@@ -334,6 +344,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4585"
@@ -344,6 +355,7 @@
      y="-195.75003"
      sodipodi:role="line"
      id="tspan4587">Pakistan,0.25,3.5</tspan></text>
+
 
 
 
@@ -360,6 +372,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4593"
@@ -370,6 +383,7 @@
      y="-179.16003"
      sodipodi:role="line"
      id="tspan4595">Somalia,0.14,3</tspan></text>
+
 
 
 
@@ -386,6 +400,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4601"
@@ -396,6 +411,7 @@
      y="-158.35997"
      sodipodi:role="line"
      id="tspan4603">Ukraine,0.25,3</tspan></text>
+
 
 
 
@@ -412,6 +428,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4609"
@@ -422,6 +439,7 @@
      y="-210.15009"
      sodipodi:role="line"
      id="tspan4611">Viet Nam,0.25,3.5</tspan></text>
+
 
 
 
@@ -492,6 +510,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4623"
@@ -503,6 +522,7 @@
      id="tspan5331"
      x="23.02"
      y="-208.07545">4</tspan></text>
+
 
 
 
@@ -521,6 +541,7 @@
 
 
 
+
 <text
    id="text5309"
    transform="scale(1,-1)"
@@ -532,6 +553,7 @@
      id="tspan5325"
      x="23.02"
      y="-499.97928">12</tspan></text>
+
 
 
 
@@ -549,6 +571,7 @@
 
 
 
+
 <text
    id="text5317"
    transform="scale(1,-1)"
@@ -563,6 +586,7 @@
 
 
 
+
 <text
    y="-133.3989"
    x="23.02"
@@ -574,6 +598,7 @@
      id="tspan5333"
      x="23.02"
      y="-133.3989">2</tspan></text>
+
 
 
 
@@ -670,6 +695,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,235.1,23.02)"
    id="text4671"
@@ -680,6 +706,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan4673">0.2</tspan></text>
+
 
 
 
@@ -696,6 +723,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,569.82,23.02)"
    id="text4679"
@@ -705,6 +733,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan4681">0.6</tspan></text>
+
 
 
 
@@ -718,6 +747,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan4685">0.8</tspan></text>
+
 
 
 
@@ -735,6 +765,7 @@
 
 
 
+
 <text
    y="-23.02"
    x="317.8356"
@@ -746,6 +777,7 @@
      id="tspan5403"
      x="317.8356"
      y="-23.02">0.3</tspan></text>
+
 
 
 
@@ -763,6 +795,7 @@
 
 
 
+
 <text
    y="-23.02"
    x="654.29889"
@@ -774,6 +807,7 @@
      id="tspan5407"
      x="654.29889"
      y="-23.02">0.7</tspan></text>
+
 
 
 
@@ -794,6 +828,7 @@
 
 
 
+
 </g><g
        id="g4701" /><g
        id="g4703"
@@ -805,6 +840,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan4707">Average Duration of Stock−out(months)</tspan></text>
+
 
 
 
