@@ -1,0 +1,92 @@
+C_Name,Year,Total N-SO,Perc. N-SO,Avg duration,Max duration,Min duration,Region,Income,GAVI,CCL Priority,EVM Country,BC_ID,wuenic_avg1,wuenic_avg2
+Afghanistan,2012,0,0,0,0,0,EMRO,Low income ,Yes,Yes,Yes,3,657416,542670
+Angola,2012,0,0,0,0,0,AFROC,Lower middle income,Yes,No,Yes,3,405187,341063
+Armenia,2012,3,0.38,2,4,1,EURO,Lower middle income,Yes,No,Yes,1,66563,63610
+Azerbaijan,2012,0,0,0,0,0,EURO,Upper middle income,Yes,No,Yes,2,194707,178823
+Bangladesh,2012,0,0,0,0,0,SEARO,Low income,Yes,Yes,Yes,3,3560189,3097683
+Belize,2012,0,0,0,0,0,AMRO,Lower middle income,No,No,No,1,6031,5760
+Benin,2012,0,0,0,0,0,AFROW,Low income,Yes,Yes,Yes,2,176076,153600
+Bhutan,2012,2,0.25,0.5,0.5,0.5,SEARO,Lower middle income,Yes,No,Yes,1,18218,16037
+Bolivia,2012,0,0,0,0,0,AMRO,Lower middle income,Yes,No,No,2,213093,187491
+Burkina Faso,2012,0,0,0,0,0,AFROW,Low income,Yes,No,Yes,3,336425,294275
+Burundi,2012,0,0,0,0,0,AFROC,Low income,Yes,Yes,Yes,2,210365,185012
+Cambodia,2012,0,0,0,0,0,WPRO,Low income,Yes,Yes,Yes,2,314923,242967
+Cameroon,2012,1,0.13,2,2,2,AFROC,Lower middle income,Yes,Yes,Yes,3,411756,369621
+Cape Verde,2012,0,0,0,0,0,AFROW,Lower middle income,No,No,No,1,12941,12043
+Central African Republic,2012,1,0.14,1,1,1,AFROC,Low income,Yes,Yes,Yes,2,96885,85850
+Chad,2012,2,0.29,1,1,1,AFROC,Low income,Yes,No,Yes,3,225273,195143
+Comoros,2012,0,0,0,0,0,AFROE&S,Low income,Yes,No,Yes,1,14427,12828
+Congo,2012,1,0.13,3,3,3,AFROC,Lower middle income,Yes,No,Yes,2,75641,69507
+Côte d'Ivoire,2012,0,0,0,0,0,AFROW,Lower middle income,Yes,Yes,Yes,3,399937,352915
+Cuba,2012,4,0.5,3.25,5,2,AMRO,Lower middle income,Yes,No,No,2,159443,156394
+Democratic People's Republic of Korea,2012,0,0,0,0,0,SEARO,Low income,Yes,No,Yes,2,349390,337776
+Democratic Republic of the Congo,2012,3,0.38,1,1,1,AFROC,Low income,Yes,Yes,Yes,3,1227670,1072454
+Djibouti,2012,0,0,0,0,0,EMRO,Lower middle income,Yes,Yes,Yes,1,13878,12605
+Egypt,2012,1,0.14,0,0,0,EMRO,Lower middle income,No,No,No,3,1696830,1493112
+El Salvador,2012,0,0,0,0,0,AMRO,Lower middle income,No,No,No,2,176416,161492
+Eritrea,2012,0,0,0,0,0,AFROE&S,Low income,Yes,Yes,Yes,2,144248,131549
+Ethiopia,2012,0,0,0,0,0,AFROE&S,Low income,Yes,Yes,Yes,3,1751038,1507333
+Fiji,2012,2,0.25,0,0,0,WPRO,Lower middle income,No,No,No,1,21603,20827
+Gambia,2012,0,0,0,0,0,AFROW,Low income,Yes,No,Yes,1,31082,28126
+Georgia,2012,3,0.38,2,3,1,EURO,Lower middle income,Yes,No,Yes,1,83601,79865
+Ghana,2012,0,0,0,0,0,AFROW,Lower middle income,Yes,Yes,Yes,3,474097,428504
+Guatemala,2012,1,0.2,0.5,0.5,0.5,AMRO,Lower middle income,No,No,No,2,301907,276187
+Guinea,2012,2,0.25,1,1,1,AFROW,Low income,Yes,Yes,Yes,2,215232,179943
+Guinea-Bissau,2012,2,0.29,0.75,0.75,0.75,AFROW,Low income,Yes,Yes,Yes,1,38195,32952
+Guyana,2012,0,0,0,0,0,AMRO,Lower middle income,Yes,No,No,1,22667,21378
+Haiti,2012,0,0,0,0,0,AMRO,Low income,Yes,Yes,Yes,2,239421,208809
+Honduras,2012,1,0.13,1,1,1,AMRO,Lower middle income,Yes,No,Yes,2,158401,146964
+India,2012,0,0,0,0,0,SEARO,Lower middle income,Yes,No,No,3,24511056,21953420
+Indonesia,2012,3,0.38,2.333333333,4,1,SEARO,Lower middle income,Yes,No,Yes,3,4867074,4493290
+Iraq,2012,2,0.33,3,3,3,EMRO,Lower middle income,No,No,No,3,544797,517881
+Kenya,2012,4,0.67,1,1,1,AFROE&S,Low income,Yes,Yes,Yes,3,807109,746999
+Kiribati,2012,2,0.4,12,12,12,WPRO,Lower middle income,Yes,No,No,1,2021,1837
+Kyrgyzstan,2012,0,0,0,0,0,EURO,Low income ,Yes,Yes,Yes,2,132506,124455
+Lao People's Democratic Republic,2012,0,0,0,0,0,WPRO,Lower middle income,Yes,Yes,Yes,2,140378,122618
+Lesotho,2012,2,0.25,1.5,2,1,AFROE&S,Lower middle income,Yes,Yes,Yes,1,53649,48208
+Liberia,2012,0,0,0,0,0,AFROW,Low income,Yes,Yes,Yes,2,93437,78722
+Madagascar,2012,0,0,0,0,0,AFROE&S,Low income,Yes,Yes,Yes,3,389313,344549
+Malawi,2012,0,0,0,0,0,AFROE&S,Low income,Yes,Yes,Yes,3,339331,286741
+Mali,2012,0,0,0,0,0,AFROW,Low income,Yes,Yes,Yes,3,330657,278881
+Marshall Islands,2012,2,0.33,2,2,2,WPRO,Lower middle income,No,No,No,1,1577,970
+Mauritania,2012,1,0.13,2,2,2,AFROW,Lower middle income,Yes,Yes,Yes,2,66138,59922
+Micronesia,2012,2,0.29,1,1,1,WPRO,Lower middle income,No,No,No,1,3244,3099
+Mongolia,2012,1,0.13,1,1,1,WPRO,Lower middle income,Yes,No,Yes,1,65764,58919
+Morocco,2012,0,0,0,0,0,EMRO,Lower middle income,No,No,No,3,770307,698379
+Mozambique,2012,3,0.38,1.666666667,3,1,AFROE&S,Low income,Yes,Yes,Yes,3,563479,482264
+Myanmar,2012,1,0.13,1,1,1,SEARO,Low income,Yes,No,Yes,3,1244821,1126154
+Nepal,2012,3,0.38,2,3,1,SEARO,Low income,Yes,No,Yes,3,589726,510709
+Nicaragua,2012,1,0.13,0,0,0,AMRO,Lower middle income,Yes,No,No,2,144161,131835
+Niger,2012,2,0.33,3,3,3,AFROW,Low income,Yes,Yes,Yes,3,321813,278550
+Nigeria,2012,2,0.29,2.5,3,2,AFROW,Lower middle income,Yes,Yes,Yes,3,3440971,2998276
+Pakistan,2012,2,0.25,3.5,5,2,EMRO,Lower middle income,Yes,Yes,No,3,3406051,3045244
+Papua New Guinea,2012,1,0.13,5,5,5,WPRO,Lower middle income,Yes,Yes,Yes,2,127338,117143
+Paraguay,2012,1,0.13,1,1,1,AMRO,Lower middle income,No,No,No,2,118853,112916
+Philippines,2012,0,0,2,3,1,WPRO,Lower middle income,No,No,No,3,1737335,1633550
+Republic of Moldova,2012,0,0,0,0,0,EURO,Lower middle income,Yes,No,Yes,1,71639,69552
+Rwanda,2012,1,0.14,1,1,1,AFROE&S,Low income,Yes,Yes,Yes,2,277048,244686
+Samoa,2012,1,0.13,0,0,0,WPRO,Lower middle income,No,No,No,1,5765,5445
+Sao Tome and Principe,2012,0,0,0,0,0,AFROC,Lower middle income,Yes,Yes,Yes,1,3854,3609
+Senegal,2012,0,0,0,0,0,AFROW,Lower middle income,Yes,Yes,Yes,2,270886,246210
+Sierra Leone,2012,0,0,0,0,0,AFROW,Low income,Yes,Yes,Yes,2,153807,129982
+Solomon Islands,2012,0,0,0,0,0,WPRO,Lower middle income,Yes,Yes,Yes,1,10196,9426
+Somalia,2012,1,0.14,3,3,3,EMRO,Low income,Yes,No,No,2,256995,223148
+Sri Lanka,2012,0,0,0,0,0,SEARO,Lower middle income,Yes,No,Yes,2,405212,392157
+Sudan (North),2012,0,0,0,0,0,EMRO,Lower middle income,Yes,Yes,Yes,1,880869,785541
+Swaziland,2012,1,0.13,1.625,3,0.25,AFROE&S,Lower middle income,No,No,No,1,29064,26191
+Syrian Arab Republic,2012,0,0,0,0,0,EMRO,Lower middle income,No,No,No,3,399769,380325
+Tajikistan,2012,1,0.14,2,2,2,EURO,Low income,Yes,No,Yes,2,210431,191602
+Tanzania,2012,3,0.38,1,1,1,AFROE&S,Low income,Yes,Yes,Yes,3,875447,782828
+Timor-Leste,2012,0,0,0,0,0,SEARO,Lower middle income,Yes,No,Yes,1,36797,34392
+Togo,2012,0,0,0,0,0,AFROW,Low income,Yes,Yes,Yes,2,129818,117366
+Tonga,2012,0,0,0,0,0,WPRO,Lower middle income,No,No,No,1,3196,3093
+Turkmenistan,2012,1,0.13,2,2,2,EURO,Lower middle income,No,No,No,2,128812,119074
+Tuvalu,2012,0,0,0,0,0,WPRO,Lower middle income,No,No,No,1,189,253
+Uganda,2012,1,0.13,1,1,1,AFROE&S,Low income,Yes,Yes,Yes,3,616679,548320
+Ukraine,2012,1,0.25,3,3,3,EURO,Lower middle income,Yes,No,Yes,2,601980,591685
+Uzbekistan,2012,5,0.71,3,5,1,EURO,Lower middle income,Yes,Yes,Yes,3,696812,655068
+Vanuatu,2012,0,0,0,0,0,WPRO,Lower middle income,No,No,No,1,4509,4159
+Viet Nam,2012,2,0.25,3.5,4,3,WPRO,Lower middle income,Yes,Yes,Yes,3,1771088,1694853
+Yemen,2012,0,0,0,0,0,EMRO,Lower middle income,Yes,Yes,No,3,446586,388004
+Zambia,2012,0,0,0,0,0,AFROE&S,Lower middle income,Yes,Yes,Yes,3,271316,243778
+Zimbabwe,2012,1,0.14,1,1,1,AFROE&S,Low income,Yes,Yes,Yes,2,344007,320504
