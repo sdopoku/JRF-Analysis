@@ -8,7 +8,7 @@ EnsurePackage <- function(x)
   
   if (!require(x, character.only= TRUE))
     {
-    install.packages(pkgs=x, repos="https://cran.r-projects.org")
+    install.packages(pkgs=x)
     require(x,character.only=TRUE)
     
   }
