@@ -8,7 +8,8 @@ EnsurePackage("ggplot2")
 
 
 ####Analysis of National DTP Stockout Data########
-NSO_DTP <- read.csv("/home/sela/Documents/UNICEF/JRF Analysis/JRF Analysis 2014 - N-SO DTP Data.csv") #Read in data
+#NSO_DTP <- read.csv("/home/sela/Documents/UNICEF/JRF Analysis/JRF Analysis 2014 - N-SO DTP Data.csv") #Read in data
+NSO_DTP <- read.csv("/home/sela/Documents/UNICEF/JRF Analysis/JRF_Analysis_2014_NSO_DTP_Data.csv")
 
 str(NSO_DTP) #look at structure of data
 
@@ -23,69 +24,72 @@ head(NSO_DTP_GAVI,6) # look at first 6 rows
 
 ####Draw SCATTER PLOT OF AVG DURATION VS TOTAL COUNTS####
 #Take subset of countries with total count >= 3 or avg distribution >= 3
-NSO_DTP_GAVI_G3 <- subset(NSO_DTP_GAVI,NSO_DTP_GAVI$Total.N.SO>=3 | 
-                            NSO_DTP_GAVI$Avg.duration >=3)
-str(NSO_DTP_GAVI_G3)
+#NSO_DTP_GAVI_G3 <- subset(NSO_DTP_GAVI,NSO_DTP_GAVI$Total.N.SO>=3 | 
+#                            NSO_DTP_GAVI$Avg.duration >=3)
+#str(NSO_DTP_GAVI_G3)
 
 #Add label column to data
 #Create new label to annotate points with on graph : C_Name, Total count, Avg. dur
-NSO_DTP_GAVI_G3$Label <- paste(NSO_DTP_GAVI_G3$C_Name,NSO_DTP_GAVI_G3$Total.N.SO,
-                               NSO_DTP_GAVI_G3$Avg.duration,sep=",")
+NSO_DTP_GAVI$Label <- paste(NSO_DTP_GAVI$C_Name,NSO_DTP_GAVI$Total.N.SO,
+                               NSO_DTP_GAVI$Avg.duration,sep=",")
 
 ##Draw basic scatter plot without BC
-sp_ndtp_g3 <- ggplot(NSO_DTP_GAVI_G3, aes(x=Total.N.SO,y=Avg.duration))+
+sp_ndtp <- ggplot(NSO_DTP_GAVI, aes(x=Total.N.SO,y=Avg.duration))+
   geom_point(size=5, colour="#214478") #"#214478" for deep blue colour
 
 #Add labels using geom_text
-sp_ndtp_g3 + geom_text(aes(label=Label),size=4)+
+sp_ndtp + geom_text(aes(label=Label),size=4)+
   scale_x_continuous(name="Total Count of DTP Stock-out",limits=c(0,6))+
   scale_y_continuous(name="Average Duration of Stock-out(months)", limit=c(0,14))
 
 
 ####Draw BUBBLE PLOT OF AVG DURATION VS TOTAL COUNTS WITH BC####
 #Take a subset of countries with 
+sp_ndtp_bub <- ggplot(NSO_DTP_GAVI, aes(x=Total.N.SO,y=Avg.duration, size=log10(wuenic_avg2),  label=Label), legend=TRUE)+
+  geom_point(colour="#214478") #"#214478" for deep blue colour
 
+sp_ndtp_bub + scale_size_area(max_size=max(log10(NSO_DTP_GAVI$wuenic_avg2)))
 
 ####Draw SCATTER PLOT OF  AVG DURATION VS PERC STOCK-OUT REPORTED####
 #Take subset of countries with perc stock-out >=0.375 or avg distribution >=3
-NSO_DTP_GAVI_GP375 <- subset(NSO_DTP_GAVI,NSO_DTP_GAVI$Perc..N.SO >=0.375 | 
-                               NSO_DTP_GAVI$Avg.duration >=3)
-str(NSO_DTP_GAVI_GP375)
+#NSO_DTP_GAVI_GP375 <- subset(NSO_DTP_GAVI,NSO_DTP_GAVI$Perc..N.SO >=0.375 | 
+#                               NSO_DTP_GAVI$Avg.duration >=3)
+#str(NSO_DTP_GAVI_GP375)
 
 #Add label column to data
 #Create new label to annotate points with on graph : C_Name, Perc. stock-out, Avg. dur
-NSO_DTP_GAVI_GP375$Label <- paste(NSO_DTP_GAVI_GP375$C_Name,NSO_DTP_GAVI_GP375$Perc..N.SO,
-                               NSO_DTP_GAVI_GP375$Avg.duration,sep=",")
-str(NSO_DTP_GAVI_GP375)
+NSO_DTP_GAVI$Label <- paste(NSO_DTP_GAVI$C_Name,NSO_DTP_GAVI$Perc..N.SO,
+                               NSO_DTP_GAVI$Avg.duration,sep=",")
+str(NSO_DTP_GAVI)
 
 ####Draw basic scatter plot##
-sp_ndtp_gp375 <- ggplot(NSO_DTP_GAVI_GP375, aes(x=Perc..N.SO, y=Avg.duration))+
+sp_ndtp_perc_avg <- ggplot(NSO_DTP_GAVI, aes(x=Perc..N.SO, y=Avg.duration))+
   geom_point(size=5,colour="#214478")
 
 #Add labels using geom_text
-sp_ndtp_gp375 + geom_text(aes(label=Label), size=4)+
+sp_ndtp_perc_avg + geom_text(aes(label=Label), size=4)+
   scale_x_continuous(name="Percentage of Stock-out Reported", limit=c(0,0.8))+
   scale_y_continuous(name="Average Duration of Stock-out(months)", limit=c(0,14))
 
 
 ####Draw SCATTER PLOT OF MAX DURATION VS TOTAL COUNTS####
 #Take subset of countries with total count >= 3 or max distribution >= 3
-NSO_DTP_GAVI_Max3 <- subset(NSO_DTP_GAVI,NSO_DTP_GAVI$Total.N.SO >=3 | 
-                            NSO_DTP_GAVI$Max.duration >=3)
-str(NSO_DTP_GAVI_Max3)
+#NSO_DTP_GAVI_Max3 <- subset(NSO_DTP_GAVI,NSO_DTP_GAVI$Total.N.SO >=3 | 
+#                            NSO_DTP_GAVI$Max.duration >=3)
+#str(NSO_DTP_GAVI_Max3)
 
 #Add label column to data
 #Create new label to annotate points with on graph : C_Name, Total count, Max dur
-NSO_DTP_GAVI_Max3$Label <- paste(NSO_DTP_GAVI_Max3$C_Name,NSO_DTP_GAVI_Max3$Total.N.SO,
-                               NSO_DTP_GAVI_Max3$Max.duration,sep=",")
-str(NSO_DTP_GAVI_Max3)
+NSO_DTP_GAVI$Label <- paste(NSO_DTP_GAVI$C_Name,NSO_DTP_GAVI$Total.N.SO,
+                               NSO_DTP_GAVI$Max.duration,sep=",")
+str(NSO_DTP_GAVI)
 
 ####Draw basic scatter plot without BC###
-sp_ndtp_max3 <- ggplot(NSO_DTP_GAVI_Max3, aes(x=Total.N.SO,y=Max.duration))+
+sp_ndtp_cnt_max <- ggplot(NSO_DTP_GAVI, aes(x=Total.N.SO,y=Max.duration))+
   geom_point(size=5, colour="#214478") #"#214478" for deep blue colour
 
 #Add labels using geom_text
-sp_ndtp_max3 + geom_text(aes(label=Label),size=4)+
+sp_ndtp_cnt_max + geom_text(aes(label=Label),size=4)+
   scale_x_continuous(name="Total Count of DTP Stock-out",limits=c(0,6))+
   scale_y_continuous(name="Maximum Duration of Stock-out(months)", limit=c(0,14))
 
