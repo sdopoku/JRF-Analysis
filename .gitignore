@@ -4,3 +4,4 @@
 *.Rproj
 *.tmp
 *~
+.Rproj.user
