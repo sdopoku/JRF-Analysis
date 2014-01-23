@@ -18,7 +18,7 @@
    sodipodi:docname="NSO_DTP_GAVI_AVG_draft.svg"><metadata
      id="metadata3979"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
      id="defs3977"><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath3991"><path
@@ -42,7 +42,7 @@
      showgrid="false"
      inkscape:zoom="0.91111111"
      inkscape:cx="495"
-     inkscape:cy="470.30488"
+     inkscape:cy="382.5"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -409,6 +409,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4243"
@@ -419,6 +420,7 @@
      y="-188.76007"
      sodipodi:role="line"
      id="tspan4245">Congo,1,3</tspan></text>
+
 
 
 
@@ -435,6 +437,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4259"
@@ -445,6 +448,7 @@
      y="-80.790009"
      sodipodi:role="line"
      id="tspan4261">Democratic Republic of the Congo,3,1</tspan></text>
+
 
 
 
@@ -461,6 +465,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4311"
@@ -471,6 +476,7 @@
      y="-143.58"
      sodipodi:role="line"
      id="tspan4313">Indonesia,3,2.33</tspan></text>
+
 
 
 
@@ -487,6 +493,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4319"
@@ -497,6 +504,7 @@
      y="-503.41003"
      sodipodi:role="line"
      id="tspan4321">Kiribati,2,12</tspan></text>
+
 
 
 
@@ -513,6 +521,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4367"
@@ -523,6 +532,7 @@
      y="-131.57001"
      sodipodi:role="line"
      id="tspan4369">Nepal,3,2</tspan></text>
+
 
 
 
@@ -539,6 +549,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4383"
@@ -549,6 +560,7 @@
      y="-194.15002"
      sodipodi:role="line"
      id="tspan4385">Pakistan,2,3.5</tspan></text>
+
 
 
 
@@ -565,6 +577,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4399"
@@ -575,6 +588,7 @@
      y="-105.19996"
      sodipodi:role="line"
      id="tspan4401">Sao Tome and Principe,0,0</tspan></text>
+
 
 
 
@@ -591,6 +605,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4431"
@@ -601,6 +616,7 @@
      y="-95.190002"
      sodipodi:role="line"
      id="tspan4433">Tanzania,3,1</tspan></text>
+
 
 
 
@@ -617,6 +633,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4451"
@@ -630,6 +647,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4455"
@@ -640,6 +658,7 @@
      y="-210.15009"
      sodipodi:role="line"
      id="tspan4457">Viet Nam,2,3.5</tspan></text>
+
 
 
 
@@ -709,6 +728,7 @@
 
 
 
+
 <text
    transform="scale(1,-1)"
    id="text4481"
@@ -723,6 +743,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,23.02,423)"
    id="text4485"
@@ -733,6 +754,7 @@
      y="0"
      sodipodi:role="line"
      id="tspan4487">10</tspan></text>
+
 
 
 
@@ -750,6 +772,7 @@
 
 
 
+
 <text
    y="-277.76797"
    x="26.220001"
@@ -761,6 +784,7 @@
      id="tspan5581"
      x="26.220001"
      y="-277.76797">6</tspan></text>
+
 
 
 
@@ -778,6 +802,7 @@
 
 
 
+
 <text
    sodipodi:linespacing="125%"
    style="font-size:8.80000000000000071px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans;fill:#000000"
@@ -787,6 +812,7 @@
    y="-497.06946"><tspan
      sodipodi:role="line"
      id="tspan5597">12</tspan></text>
+
 
 
 
@@ -874,6 +900,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,295.06,23.02)"
    id="text4527"
@@ -883,6 +910,7 @@
      x="0"
      y="0"
      id="tspan4529">2</tspan></text>
+
 
 
 
@@ -898,6 +926,7 @@
 
 
 
+
 <text
    transform="matrix(1,0,0,-1,741.35,23.02)"
    id="text4535"
@@ -907,6 +936,7 @@
      x="0"
      y="0"
      id="tspan4537">6</tspan></text>
+
 
 
 
@@ -924,6 +954,7 @@
 
 
 
+
 <text
    id="text5407"
    transform="scale(1,-1)"
@@ -938,6 +969,7 @@
 
 
 
+
 <text
    id="text5411"
    transform="scale(1,-1)"
@@ -949,6 +981,7 @@
      id="tspan5419"
      x="629.534"
      y="-23.02">5</tspan></text>
+
 
 
 
@@ -971,6 +1004,7 @@
 
 
 
+
 </g><g
        id="g4553" /><g
        id="g4555"><text
@@ -983,6 +1017,7 @@
      y="16.219999"
      sodipodi:role="line"
      id="tspan4559">Average Duration of Stock−out(months)</tspan></text>
+
 
 
 
@@ -1059,19 +1094,6 @@
          id="flowPara5363">Data source: Joint Reporting Form | Patrick Lydon</flowPara><flowPara
          style="font-size:10px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
          id="flowPara5361" /></flowRoot><flowRoot
-       xml:space="preserve"
-       id="flowRoot4381"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-       transform="matrix(0.86807067,0,0,-0.84438504,85.572683,219.02299)"><flowRegion
-         id="flowRegion4383"><rect
-           id="rect4385"
-           width="671.03021"
-           height="28.754917"
-           x="-50.050041"
-           y="-423.50034"
-           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans" /></flowRegion><flowPara
-         id="flowPara4387"
-         style="font-weight:bold">National DTP stock-out risk level of 72 GAVI countries, 2005-2012</flowPara></flowRoot><flowRoot
        transform="matrix(0.86807067,0,0,-0.84438504,577.5922,157.55958)"
        style="font-size:14.9507219px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        id="flowRoot3226"
@@ -1094,4 +1116,17 @@
          style="font-size:14.95072189999999956px;fill:#ff8080"
          id="flowPara3252">Low risk: <flowSpan
    style="font-weight:bold;font-size:14.95072189999999956px;fill:#ff8080"
-   id="flowSpan3258">54</flowSpan></flowPara></flowRoot></g></svg>
+   id="flowSpan3258">54</flowSpan></flowPara></flowRoot><flowRoot
+       xml:space="preserve"
+       id="flowRoot4381-3"
+       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
+       transform="matrix(0.91274665,0,0,-0.84438504,87.119433,241.19755)"><flowRegion
+         id="flowRegion4383-6"><rect
+           id="rect4385-6"
+           width="815.44019"
+           height="51.109848"
+           x="-50.050041"
+           y="-423.50034"
+           style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans" /></flowRegion><flowPara
+         id="flowPara4387-8"
+         style="font-weight:bold">National DTP stock-out(SO) risk level of 72 GAVI countries based on total count and average duration of SOs , 2005-2012</flowPara></flowRoot></g></svg>

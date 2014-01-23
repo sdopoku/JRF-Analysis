@@ -35,7 +35,7 @@ NSO_DTP_GAVI$Label <- paste(NSO_DTP_GAVI$C_Name,NSO_DTP_GAVI$Total.N.SO,
 
 ##Draw basic scatter plot without BC
 sp_ndtp <- ggplot(NSO_DTP_GAVI, aes(x=Total.N.SO,y=Avg.duration))+
-  geom_point(size=5, colour="#214478") #"#214478" for deep blue colour
+  geom_point(size=5, colour="red",alpha=I(0.3)) #"#214478" for deep blue colour
 
 #Add labels using geom_text
 sp_ndtp + geom_text(aes(label=Label),size=4)+
@@ -45,10 +45,20 @@ sp_ndtp + geom_text(aes(label=Label),size=4)+
 
 ####Draw BUBBLE PLOT OF AVG DURATION VS TOTAL COUNTS WITH BC####
 #Take a subset of countries with 
-sp_ndtp_bub <- ggplot(NSO_DTP_GAVI, aes(x=Total.N.SO,y=Avg.duration, size=log10(wuenic_avg2),  label=Label), legend=TRUE)+
-  geom_point(colour="#214478") #"#214478" for deep blue colour
+NSO_DTP_GAVI_WO_MAX <- subset(NSO_DTP_GAVI, NSO_DTP_GAVI$wuenic_avg1< max(NSO_DTP_GAVI$wuenic_avg1))
+NSO_DTP_GAVI_WO_MAX$Label <- paste(NSO_DTP_GAVI_WO_MAX$C_Name,NSO_DTP_GAVI_WO_MAX$wuenic_avg1,sep=",")
+str(NSO_DTP_GAVI_WO_MAX)
 
-sp_ndtp_bub + scale_size_area(max_size=max(log10(NSO_DTP_GAVI$wuenic_avg2)))
+sp_ndtp_bub <- ggplot(NSO_DTP_GAVI_WO_MAX, aes(x=Total.N.SO,y=Avg.duration, size=wuenic_avg1,,  label=Label), legend=TRUE)+
+  geom_point(colour="white", fill="#214478", shape=21) #"#214478" for deep blue colour
+
+NSO_DTP_test$Label <- paste(NSO_DTP_test$C_Name,NSO_DTP_test$wuenic_avg1,sep=",")
+sp_ndtp_bub <- ggplot(NSO_DTP_test, aes(x=Total.N.SO,y=Avg.duration, size=wuenic_avg1,  label=Label), legend=TRUE)+
+  geom_point(colour="white", fill="#214478", shape=21, alpha=I(0.9)) #"#214478" for deep blue colour
+
+sp_ndtp_bub + scale_size_area(max_size=10)+ geom_text(aes(label=Label),size=4)+
+  scale_x_continuous(name="Total Count of DTP Stock-out",limits=c(0,6))+
+  scale_y_continuous(name="Average Duration of Stock-out(months)", limit=c(0,14))
 
 ####Draw SCATTER PLOT OF  AVG DURATION VS PERC STOCK-OUT REPORTED####
 #Take subset of countries with perc stock-out >=0.375 or avg distribution >=3
