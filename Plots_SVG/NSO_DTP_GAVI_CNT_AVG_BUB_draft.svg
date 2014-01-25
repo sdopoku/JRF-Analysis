@@ -18,7 +18,7 @@
    sodipodi:docname="NSO_DTP_GAVI_CNT_AVG_BUB_draft.svg"><metadata
      id="metadata8391"><rdf:RDF><cc:Work
          rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
      id="defs8389"><clipPath
        clipPathUnits="userSpaceOnUse"
        id="clipPath8403"><path
@@ -42,9 +42,9 @@
      inkscape:window-height="876"
      id="namedview8387"
      showgrid="false"
-     inkscape:zoom="0.92954908"
-     inkscape:cx="499.39029"
-     inkscape:cy="298.84972"
+     inkscape:zoom="1.0360211"
+     inkscape:cx="514.85697"
+     inkscape:cy="360.03543"
      inkscape:window-x="0"
      inkscape:window-y="24"
      inkscape:window-maximized="1"
@@ -407,6 +407,7 @@
      sodipodi:role="line"
      id="tspan8605">Armenia,3,2</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text8655"
@@ -417,6 +418,7 @@
      y="-190.36008"
      sodipodi:role="line"
      id="tspan8657">Congo,1,3</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -429,6 +431,7 @@
      sodipodi:role="line"
      id="tspan8665">Cuba,4,3.25</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text8671"
@@ -439,6 +442,7 @@
      y="-72.790016"
      sodipodi:role="line"
      id="tspan8673">Democratic Republic of the Congo,3,1</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -451,6 +455,7 @@
      sodipodi:role="line"
      id="tspan8693">Georgia,3,2</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text8723"
@@ -461,6 +466,7 @@
      y="-154.78004"
      sodipodi:role="line"
      id="tspan8725">Indonesia,3,2.33</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -473,6 +479,7 @@
      sodipodi:role="line"
      id="tspan8729">Kenya,4,1</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text8731"
@@ -483,6 +490,7 @@
      y="-501.81003"
      sodipodi:role="line"
      id="tspan8733">Kiribati,2,12</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -495,6 +503,7 @@
      sodipodi:role="line"
      id="tspan8773">Mozambique,3,1.67</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text8779"
@@ -505,6 +514,7 @@
      y="-136.37003"
      sodipodi:role="line"
      id="tspan8781">Nepal,3,2</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -517,6 +527,7 @@
      sodipodi:role="line"
      id="tspan8789">Niger,2,3</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text8795"
@@ -527,6 +538,7 @@
      y="-197.35002"
      sodipodi:role="line"
      id="tspan8797">Pakistan,2,3.5</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -539,6 +551,7 @@
      sodipodi:role="line"
      id="tspan8801">Papua New Guinea,1,5</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text8827"
@@ -549,6 +562,7 @@
      y="-203.16013"
      sodipodi:role="line"
      id="tspan8829">Somalia,1,3</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -561,6 +575,7 @@
      sodipodi:role="line"
      id="tspan8845">Tanzania,3,1</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text8859"
@@ -571,6 +586,7 @@
      y="-215.96016"
      sodipodi:role="line"
      id="tspan8861">Ukraine,1,3</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -583,6 +599,7 @@
      sodipodi:role="line"
      id="tspan8865">Uzbekistan,5,3</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text8867"
@@ -593,6 +610,7 @@
      y="-210.15009"
      sodipodi:role="line"
      id="tspan8869">Viet Nam,2,3.5</tspan></text>
+
 
 <path
    d="m 41.22,37.15 589.42836,0"
@@ -663,6 +681,7 @@
      y="-59.16"
      id="tspan8891">0</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text8893"
@@ -674,6 +693,7 @@
      id="tspan9946"
      x="28.710625"
      y="-204.86092">4</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -688,6 +708,7 @@
      sodipodi:role="line"
      id="tspan8899">10</tspan></text>
 
+
 <text
    sodipodi:linespacing="125%"
    style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
@@ -699,6 +720,7 @@
      id="tspan9974"
      x="23.02"
      y="-496.27682">12</tspan></text>
+
 
 <text
    y="-350.57123"
@@ -712,6 +734,7 @@
      x="28.827812"
      y="-350.57123">8</tspan></text>
 
+
 <text
    sodipodi:linespacing="125%"
    style="font-size:9.60000038px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans"
@@ -724,6 +747,7 @@
      x="28.776251"
      y="-277.71841">6</tspan></text>
 
+
 <text
    y="-132.01282"
    x="29.1325"
@@ -735,6 +759,7 @@
      id="tspan9978"
      x="29.1325"
      y="-132.01282">2</tspan></text>
+
 
 </g><g
        id="g8901" /><g
@@ -815,6 +840,7 @@
      y="0"
      id="tspan8937">0</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text8939"
@@ -826,6 +852,7 @@
      x="254.22495"
      y="-23.02"
      id="tspan8941">2</tspan></text>
+
 
 <text
    transform="scale(1,-1)"
@@ -839,6 +866,7 @@
      y="-23.02"
      id="tspan8945">4</tspan></text>
 
+
 <text
    transform="scale(1,-1)"
    id="text8947"
@@ -850,6 +878,7 @@
      x="629.12"
      y="-23.02"
      id="tspan8949">6</tspan></text>
+
 
 <text
    id="text9928"
@@ -863,6 +892,7 @@
      x="160.24747"
      y="-23.02">1</tspan></text>
 
+
 <text
    y="-23.02"
    x="347.87897"
@@ -874,6 +904,7 @@
      id="tspan9942"
      x="347.87897"
      y="-23.02">3</tspan></text>
+
 
 <text
    id="text9936"
@@ -887,49 +918,15 @@
      x="535.43781"
      y="-23.02">5</tspan></text>
 
+
 </g><g
        id="g8951" /><g
        id="g8953" /><g
        id="g8955" /><g
        id="g8957" /><g
-       id="g8959"
-       transform="translate(0,-11.2)"><text
-   transform="scale(1,-1)"
-   id="text8961"
-   style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
-   sodipodi:linespacing="125%"
-   x="271.47"
-   y="-6"><tspan
-     style="font-size:12px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-     x="271.47 277.362 284.034 287.37 294.04199 296.70599 300.04199 308.70599 315.37799 322.04999 328.72198 332.05801 335.39401 342.06601 345.40201 348.73801 357.40201 364.73401 372.73801 376.07401 384.078 387.414 394.086 400.086 406.086 413.09399 419.76599 426.43799"
-     y="-6"
-     sodipodi:role="line"
-     id="tspan8963">Total Count of DTP Stock−out</tspan></text>
-
-<flowRoot
-   xml:space="preserve"
-   id="flowRoot4381-3"
-   style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
-   transform="matrix(0.77130547,0,0,-0.84438504,78.097922,238.06951)"><flowRegion
-     id="flowRegion4383-6"><rect
-       id="rect4385-6"
-       width="815.44019"
-       height="51.109848"
-       x="-50.050041"
-       y="-423.50034"
-       style="font-size:20px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;fill:#000000;font-family:Sans;-inkscape-font-specification:Sans" /></flowRegion><flowPara
-     id="flowPara4387-8"
-     style="font-weight:bold">National DTP stock-out(SO) risk level of 72 GAVI countries based on total count and average duration of SOs , 2005-2012</flowPara></flowRoot></g><g
        id="g8965" /><g
        id="g8967"
-       transform="translate(-16,0)"><text
-   transform="matrix(0,1,1,0,19.42,212.41)"
-   id="text8969"><tspan
-     style="font-size:12px;font-variant:normal;font-weight:normal;writing-mode:lr-tb;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;font-family:Helvetica;-inkscape-font-specification:Helvetica"
-     x="0 7.5240002 13.224 19.896 23.771999 30.444 37.116001 43.787998 47.124001 55.787998 62.459999 66.335999 73.008003 76.344002 79.008003 85.68 92.351997 95.688004 102.36 105.696 109.032 117.036 120.372 127.044 133.04401 139.04401 146.052 152.724 159.396 162.73199 166.728 176.724 183.396 190.06799 193.40401 200.076 206.076"
-     y="0"
-     sodipodi:role="line"
-     id="tspan8971">Average Duration of Stock−out(months)</tspan></text>
+       transform="translate(-16,0)">
 
 </g><g
        id="g8973" /><g
@@ -989,6 +986,7 @@
      x="738.90973"
      y="-362.17999">(10 - 50K]</tspan></text>
 
+
 <text
    sodipodi:linespacing="125%"
    style="font-size:8.80000019px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;writing-mode:lr-tb;text-anchor:start;font-family:Sans;-inkscape-font-specification:Sans"
@@ -1000,6 +998,7 @@
      id="tspan10820"
      x="738.90973"
      y="-384.58008">(0 - 5K]</tspan></text>
+
 
 </g><g
        id="g9051" /><g
@@ -1016,6 +1015,7 @@
      x="738.90973"
      y="-335.62">(100 - 500K]</tspan></text>
 
+
 </g><g
        id="g9059" /><g
        id="g9061"
@@ -1031,7 +1031,20 @@
      x="738.90973"
      y="-302.17999">(1 - 5M]</tspan></text>
 
-</g><g
+
+<flowRoot
+   xml:space="preserve"
+   id="flowRoot6552"
+   style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+   transform="matrix(0.8,0,0,-0.8,558.94591,377.8545)"><flowRegion
+     id="flowRegion6554"><rect
+       id="rect6556"
+       width="135.95171"
+       height="13.595162"
+       x="187.19504"
+       y="172.68422" /></flowRegion><flowPara
+     id="flowPara6558"
+     style="font-size:11px">K: thousand, M: million</flowPara></flowRoot></g><g
        id="g9067" /><g
        id="g9069"
        transform="translate(-52.8,0)"><text
@@ -1045,6 +1058,7 @@
      id="tspan10810"
      x="738.69916"
      y="-262.51001">10M+</tspan></text>
+
 
 </g><g
        id="g9075" /><g
@@ -1071,7 +1085,7 @@
            y="313.54544"
            style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
          id="flowPara3739"
-         style="font-size:20px;font-weight:bold;text-align:center;text-anchor:middle;fill:#800000">HIGH RISK</flowPara></flowRoot><flowRoot
+         style="font-size:20px;font-weight:bold;text-align:center;text-anchor:middle;fill:#800000">HIGH</flowPara></flowRoot><flowRoot
        transform="matrix(0.8,0,0,-0.8,-314.67369,643.85669)"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
        id="flowRoot3741"
@@ -1084,7 +1098,7 @@
            id="rect3745"
            style="text-align:center;text-anchor:middle" /></flowRegion><flowPara
          style="font-size:20px;font-weight:bold;text-align:center;text-anchor:middle;fill:#ff0000"
-         id="flowPara3747">MEDIUM RISK</flowPara></flowRoot><flowRoot
+         id="flowPara3747">MEDIUM</flowPara></flowRoot><flowRoot
        xml:space="preserve"
        id="flowRoot10046"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1097,7 +1111,7 @@
            x="601.20758"
            y="313.54544" /></flowRegion><flowPara
          id="flowPara10052"
-         style="font-size:20px;font-weight:bold;text-align:center;text-anchor:middle;fill:#ff0000">MEDIUM RISK</flowPara></flowRoot><flowRoot
+         style="font-size:20px;font-weight:bold;text-align:center;text-anchor:middle;fill:#ff0000">MEDIUM</flowPara></flowRoot><flowRoot
        xml:space="preserve"
        id="flowRoot3757"
        style="font-size:40px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
@@ -1110,7 +1124,7 @@
            x="601.20758"
            y="313.54544" /></flowRegion><flowPara
          id="flowPara3763"
-         style="font-size:20px;font-weight:bold;text-align:center;text-anchor:middle;fill:#ff8080">LOW RISK</flowPara></flowRoot><flowRoot
+         style="font-size:20px;font-weight:bold;text-align:center;text-anchor:middle;fill:#ff8080">LOW</flowPara></flowRoot><flowRoot
        transform="matrix(0.86807064,0,0,-0.84438504,527.14611,146.49627)"
        style="font-size:14.95072174px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans;-inkscape-font-specification:Sans"
        id="flowRoot3226"
@@ -1123,21 +1137,21 @@
            width="178.43239"
            id="rect3230" /></flowRegion><flowPara
          id="flowPara3232"
-         style="font-size:14.95072174px;fill:#800000">High risk: <flowSpan
+         style="font-size:14.95072174px;fill:#800000">High: <flowSpan
    style="font-size:14.95072174px;font-weight:bold;fill:#800000"
    id="flowSpan3254">2</flowSpan></flowPara><flowPara
          style="font-size:14.95072174px;fill:#ff0000"
-         id="flowPara3250">Medium risk: <flowSpan
+         id="flowPara3250">Medium: <flowSpan
    style="font-size:14.95072174px;font-weight:bold;fill:#ff0000"
    id="flowSpan3256">16</flowSpan></flowPara><flowPara
          style="font-size:14.95072174px;fill:#ff8080"
-         id="flowPara3252">Low risk: <flowSpan
+         id="flowPara3252">Low: <flowSpan
    style="font-size:14.95072174px;font-weight:bold;fill:#ff8080"
    id="flowSpan3258">54</flowSpan></flowPara></flowRoot><flowRoot
        xml:space="preserve"
        id="flowRoot5353"
        style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0.8,0,0,-0.8,33.564969,565.03944)"><flowRegion
+       transform="matrix(0.8,0,0,-0.8,33.564969,568.23944)"><flowRegion
          id="flowRegion5355"><rect
            id="rect5357"
            width="325.22989"
@@ -1174,7 +1188,7 @@
        xml:space="preserve"
        id="flowRoot10846"
        style="font-size:10px;font-style:normal;font-weight:normal;text-align:center;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
-       transform="matrix(0.8,0,0,-0.8,266.922,67.692)"><flowRegion
+       transform="matrix(0.8,0,0,-0.8,266.922,54.892)"><flowRegion
          id="flowRegion10848"><rect
            id="rect10850"
            width="156.54469"
