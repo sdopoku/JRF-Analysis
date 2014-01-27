@@ -9,7 +9,7 @@ EnsurePackage("ggplot2")
 
 ####Analysis of National DTP Stockout Data########
 #NSO_DTP <- read.csv("/home/sela/Documents/UNICEF/JRF Analysis/JRF Analysis 2014 - N-SO DTP Data.csv") #Read in data
-NSO_DTP <- read.csv("/home/sela/Documents/UNICEF/JRF Analysis/JRF_Analysis_2014_NSO_DTP_Data.csv")
+NSO_DTP <- read.csv("/home/sela/Documents/UNICEF/JRF Analysis/Data/JRF_Analysis_2014_NSO_DTP_Data.csv")
 
 str(NSO_DTP) #look at structure of data
 
@@ -83,7 +83,7 @@ sp_ndtp_perc_avg <- ggplot(NSO_DTP_GAVI, aes(x=Perc..N.SO, y=Avg.duration))+
 
 #Add labels using geom_text
 sp_ndtp_perc_avg + geom_text(aes(label=Label), size=4)+
-  scale_x_continuous(name="Percentage of Stock-out Reported", limit=c(0,0.8))+
+  scale_x_continuous(name="Percentage of Stock-out Reported", limit=c(0,1.0))+
   scale_y_continuous(name="Average Duration of Stock-out(months)", limit=c(0,14))
 
 
@@ -130,7 +130,7 @@ sp_ndtp_min3 + geom_text(aes(label=Label),size=4)+
   scale_y_continuous(name="Minimum Duration of Stock-out(months)", limit=c(0,14))
 
 ####Draw frequency distribution of Avg. duration####
-NSO_DTP_SO_Dur <- read.csv("/home/sela/Documents/UNICEF/JRF Analysis/JRF Analysis 2014 - SO Duration Data.csv")
+NSO_DTP_SO_Dur <- read.csv("/home/sela/Documents/UNICEF/JRF Analysis/Data/JRF_Analysis_2014_SO_Duration.csv")
 str(NSO_DTP_SO_Dur)
 
 ggplot(NSO_DTP_SO_Dur, aes(x=factor(SO.Duration)))+
@@ -146,3 +146,69 @@ NSO_DTP_GAVI$wuenic_avg1_factor <- ifelse(NSO_DTP_GAVI$wuenic_avg1 <= 5000,1,
                                                                              ifelse(NSO_DTP_GAVI$wuenic_avg1 > 1000000 & NSO_DTP_GAVI$wuenic_avg1 <=5000000,30,
                                                                                     ifelse(NSO_DTP_GAVI$wuenic_avg1 > 5000000 & NSO_DTP_GAVI$wuenic_avg1 <=1000000,35,40))))))))
 
+####Barplot for National DTP Stockout#### 
+#Load data
+NSO_DTP_YEARS <- read.csv("/home/sela/Documents/UNICEF/JRF Analysis/Data/JRF_Analysis_2014_NSO_DTP_GAVI_YEARS.csv")
+str(NSO_DTP_YEARS)
+NSO_DTP_YEARS$Perc <- NSO_DTP_YEARS$NSO_Count/NSO_DTP_YEARS$Countries_Responded
+head(NSO_DTP_YEARS,8)
+
+#Create barplot using gglot
+EnsurePackage("ggplot2")
+
+nso_years <- ggplot(NSO_DTP_YEARS, aes(x=factor(Year),y=NSO_Count))+
+  geom_bar(stat="identity",fill="#214478", width=0.7)+
+  geom_text(aes(label=NSO_Count), vjust=1.5, colour="white",
+            position=position_dodge(0.9), size=4)+
+  ylim(0,20)+ theme_bw()
+
+#Plot bar graph with line at mean 
+nso_years + geom_hline(yintercept=mean(NSO_DTP_YEARS$NSO_Count),linetype="dashed")
+
+#Plot bar graph with line at median
+nso_years + geom_hline(yintercept=median(NSO_DTP_YEARS$NSO_Count),linetype="dashed")
+
+#Plot bar graph with line at mean and median
+nso_years + geom_hline(yintercept=mean(NSO_DTP_YEARS$NSO_Count),linetype="dashed")+
+  geom_hline(yintercept=median(NSO_DTP_YEARS$NSO_Count),linetype="dashed",colour="#782121")
+
+####Distric level stock-out####
+
+DSO_DTP_YEARS <- read.csv("/home/sela/Documents/UNICEF/JRF Analysis/Data/JRF_Analysis_2014_DSO_DTP_GAVI_YEARS.csv")
+str(DSO_DTP_YEARS)
+DSO_DTP_YEARS$Perc <- DSO_DTP_YEARS$DSO_Count/DSO_DTP_YEARS$Countries_Responded
+head(DSO_DTP_YEARS,8)
+
+#Create barplot using gglot
+EnsurePackage("ggplot2")
+
+dso_years <- ggplot(DSO_DTP_YEARS, aes(x=factor(Year),y=DSO_Count))+
+  geom_bar(stat="identity",fill="#214478", width=0.7)+
+  geom_text(aes(label=DSO_Count), vjust=1.5, colour="white",
+            position=position_dodge(0.9), size=4)+
+  ylim(0,20)+ theme_bw()
+
+#Plot bar graph with line at mean 
+dso_years + geom_hline(yintercept=mean(DSO_DTP_YEARS$DSO_Count),linetype="dashed")
+
+#Plot bar graph with line at median
+dso_years + geom_hline(yintercept=median(DSO_DTP_YEARS$DSO_Count),linetype="dashed")
+
+#Plot bar graph with line at mean and median
+dso_years + geom_hline(yintercept=mean(DSO_DTP_YEARS$DSO_Count),linetype="dashed")+
+  geom_hline(yintercept=median(DSO_DTP_YEARS$DSO_Count),linetype="dashed",colour="#782121")
+
+####Barplot of number DTP districts with SO####
+DSO_DTP_GAVI_District <- read.csv("/home/sela/Documents/UNICEF/JRF Analysis/Data/JRF_Analysis_2014_DSO_DTP_District.csv")
+str(DSO_DTP_GAVI_District)
+
+DSO_DTP_GAVI_District$intervals <- cut(DSO_DTP_GAVI_District$Perc_districts_DTP_DSO,
+                                       breaks=c(-1,0,10,20,30,40,50,60,70,80,90,100))
+
+str(DSO_DTP_GAVI_District)
+
+dso_dtp_dist_intervals <- data.frame(table(DSO_DTP_GAVI_District$intervals),c)
+
+ggplot(dso_dtp_dist_intervals,aes(x=Var1, y=Freq))+
+  geom_bar(stat="identity", fill="#214478", width=0.7)+
+  ylim(0,40)+theme_bw()
