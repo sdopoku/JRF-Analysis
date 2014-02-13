@@ -54,7 +54,7 @@ sp_ndtp_bub <- ggplot(NSO_DTP_GAVI_WO_MAX, aes(x=Total.N.SO,y=Avg.duration, size
 
 NSO_DTP_GAVI_LS_1M <- subset(NSO_DTP_GAVI, NSO_DTP_GAVI$wuenic_avg1 < 1000000)
 NSO_DTP_GAVI_LS_1M$Label <- paste(NSO_DTP_GAVI_LS_1M$C_Name,NSO_DTP_GAVI_LS_1M$wuenic_avg1,sep=",")
-str(NSO_DTP_GAVI_LS_1M)le
+str(NSO_DTP_GAVI_LS_1M)
 
 NSO_DTP_GAVI$Label <- paste(NSO_DTP_GAVI$C_Name,NSO_DTP_GAVI$Total.N.SO,NSO_DTP_GAVI$Avg.duration,sep=",")
 sp_ndtp_bub <- ggplot(NSO_DTP_GAVI, aes(x=Total.N.SO,y=Avg.duration, size=wuenic_avg1_factor,  label=Label), legend=TRUE)+
